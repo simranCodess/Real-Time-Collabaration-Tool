@@ -56,10 +56,10 @@ function Doc() {
     return (
         <div>
             <header className={"flex justify-between items-center p-3 pb-1"}>
-                <DescriptionIcon className="hidden md:inline material-icons text-blue-500 text-5xl cursor-pointer" />
+        
                 <div className={"flex-grow px-2"}>
                     <h2>{snapshot?.data()?.filename}</h2>
-                    <div className={" flex items-center text-sm space-x-1 -ml-1 h-8 text-gray-600"}>
+                    <div className={" flex items-center text-sm space-x-1 -ml-1 text-gray-600"}>
                         <p
 className="option"
                         >File</p>
@@ -70,13 +70,8 @@ className="option"
                         <p className="option">Tools</p>
                     </div>
                 </div>
-                <Button
-                    size="regular"
-                    className={"hidden md: inline-flex  py-2 bg-blue-400 justify-center"}
-                    ripple={"light"}
-                >SHARE
-                </Button>
-                <img className={"rounded-full cursor-pointer h-10 w-10 ml-2"} src={user?.photoURL} alt={""}/>
+            
+               
             </header>
 
             <TextEditor/>

@@ -28,7 +28,7 @@
     background-size: contain;
     z-index: 3;
     transform: translateX(90%);
-    animation: cloud_one 25.5s ease-in 0.9s infinite;
+    animation: cloud_one 9.5s ease-in 0s infinite;
 
 }
 
@@ -41,15 +41,15 @@
     height:100px;
     background-size: contain;
     z-index: 1;
-    transform: translateX(290%);
-    animation: cloud_two 18.5s ease-in infinite;
+    transform: translateX(0%);
+    animation: cloud_two 7.5s ease-in 0s infinite;
 }
 
 
 @keyframes cloud_one
 {
     0%{
-        transform: translateX(290%);
+        transform: translateX(198%);
     }
     100%{
         transform: translateX(-250%);

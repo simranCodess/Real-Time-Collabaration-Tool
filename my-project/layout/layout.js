@@ -2,8 +2,8 @@ import styles from "../styles/layout.module.css"
 
 export default function Layout({ children }){
 return (
-    <div className={"flex h-screen bg-blue-400"}>
-     <div className={"m-auto bg-white rounded-md w-3/5 h-auto grid lg:grid-cols-2"}>
+    <div className={"flex h-screen bg-blue-400 rounded-xl"}>
+     <div className={"m-auto bg-white rounded-2xl w-3/5 h-auto grid lg:grid-cols-2"}>
          <div className={styles.imgStyle}>
             <div className={styles.cartoonImg}>
             </div>

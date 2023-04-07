@@ -25,19 +25,12 @@ function Header({user}) {
 
     return (
 
-        <header className="sticky top-0 z-50 flex items-center px-4 py-2
-    shadow-md bg-white min-w-0 space-x-2 md:space-x-4
+        <header >
+            
+            <div className="sticky top-0 z-50 flex items-center px-2 py-2
+     bg-white min-w-full space-x-2 md:space-x-2 sm:w-full sm:h-full md:flex md:items-center
     ">
-            <IconButton
-                variant="text"
-                color="gray"
-                rounded={true}
-                iconOnly={true}
-                ripple="dark"
-                className='h-12 w-12 md:h-20 md:w-20 border-0'
-            >
-                <Icon className="material-icons text-gray-500 text-3xl">menu</Icon>
-            </IconButton>
+           
 
             <Icon className="hidden md:inline material-icons text-blue-500 text-5xl">description</Icon>
 
@@ -45,21 +38,13 @@ function Header({user}) {
 
             <div className='flex-grow flex items-center px-5 py-2 bg-gray-100 text-gray-600
       focus-within:text-gray-600 focus-within:shadow-md
-      rounded-lg mx-2 md:mx-5 lg:mx-20'>
-                <Icon className='material-icons text-gray text-3xl'>search</Icon>
+      rounded-lg'>
+                <Icon className='material-icons text-gray text-3xl pb-1'>search</Icon>
                 <input type="text" placeholder='search' className="flex-grow px-5 text-sm bg-transparent outline-none"></input>
             </div>
+           
 
-            <IconButton
-                variant="text"
-                color="gray"
-                rounded={true}
-                iconOnly={true}
-                ripple="dark"
-                className='h-12 w-12 md:h-20 md:w-20 border-0'
-            >
-                <Icon className="material-icons text-gray-500 text-3xl">apps</Icon>
-            </IconButton>
+        
 
             <Menu animate={{
                 mount: { y: 0 },
@@ -84,6 +69,8 @@ function Header({user}) {
                     </MenuItem>
                 </MenuList>
             </Menu>
+
+            </div>
 
 
 

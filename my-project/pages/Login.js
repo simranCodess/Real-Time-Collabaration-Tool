@@ -64,8 +64,8 @@ export default function Login() {
             </Head>
 
             <section className='w-3/4 mx-auto flex flex-col
-            gap-10'>
-                <div className="title flex flex-col items-center">
+            gap-10 rounded-lg'>
+                <div className="title flex flex-col items-center rounded-lg">
                     <img  src={"assets/docs-icon.png"} alt={""} width={"100px"} height={"100px"}/>
                     <h1 className='text-blue-900 text-2xl font-bold py-4'>Real-Time Collaboration Tool</h1>
                     <p className={"text-gray-400 font-medium"}>Collaboration made simple, collaborate and edit documents from anywhere, anytime</p>

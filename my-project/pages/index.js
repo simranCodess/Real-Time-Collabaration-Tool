@@ -57,9 +57,10 @@ export default function Home() {
         <Dialog
             open={open}
             handler={handleOpen}
-            className="fixed inset-0 flex items-center justify-center z-50"
+            className="fixed inset-0 flex items-center justify-center z-50 h-full"
         >
-            <div className="w-2/6 h-2/6 justify-center bg-white p-6 rounded-md shadow-lg">
+            <div className="w-3/4 md:w-1/4 h-2/6 justify-center bg-white pt-6 rounded-md shadow-lg">
+
                 <DialogBody>
                     <div className="mb-4 py-2 flex justify-center">
                         <input
@@ -115,12 +116,12 @@ export default function Home() {
             </Head>
             <div>
 
-                <Header user={user}/>
+            <Header user={user}/>
 
 
 
 
-                <section className='bg-[#F8F9FA] pb-10 px-10'>
+                <section className='  justify-between pb-10 px-10'>
                     <div className='mx-auto max-w-3xl'>
                         <div className=' flex items-center justify-between py-6'>
                             <h2 className='text-gray-700 text-lg'>Start a new document</h2>
@@ -153,7 +154,7 @@ export default function Home() {
                         <p className='ml-2 mt-2 font-semibold text-sm text-gray-700'>Blank</p>
                     </div>
                 </section>
-                <section className='bg-white px-10 md:px-0'>
+                <section className=' px-10 md:px-0'>
                     <div className='max-w-3xl mx-auto py-8 text-sm text-gray-700'>
                         <div className='flex items-center justify-between pb-5'>
                             <h2 className='font-medium flex-grow'>My Documents</h2>
