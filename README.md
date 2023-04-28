@@ -10,6 +10,6 @@ https://docs-yt-ddc88.web.app/
 
 ![](https://github.com/simranCodess/Real-Time-Collabaration-Tool/blob/main/login.gif)
 ![](https://github.com/simranCodess/Real-Time-Collabaration-Tool/blob/main/demo.gif)
-#### I still need to add real time collabaration in this project, so its a work in progress
+#### I still need to add collabaration in this project, so its a work in progress
 
 
